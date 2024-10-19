@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  seed:
+    cmds:
+      - sqlite3 -init seed.sql example.db .quit
+    silent: true
